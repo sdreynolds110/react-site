@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 // Pages
 import Home from "./components/pages/Home";
-import About from "./components/pages/About";
+import About from "./components/common/About";
 
 class App extends Component {
   render() {

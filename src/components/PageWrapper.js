@@ -5,7 +5,6 @@ class PageWrapper extends Component {
     render(){
         return (
             <div>
-                {/* <!-- Navigation--> */}
                 <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
                     <div className="container">
                         <Link className="navbar-brand" to="/">Start Bootstrap</Link>
