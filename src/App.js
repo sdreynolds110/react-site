@@ -4,7 +4,6 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 // Pages
 import Home from "./components/pages/Home";
-import About from "./components/common/About";
 
 class App extends Component {
   render() {
@@ -12,8 +11,6 @@ class App extends Component {
       <Router>
         <PageWrapper>
             <Route path="/" component={Home} />
-            <Route path="/about" component={About} />
-
         </PageWrapper>
       </Router>
     );
